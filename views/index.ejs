@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+
+  <body>
+    <h1>ID - cliente: <span id="socket-id"></span></h1>
+    
+    
+    <div class="containerVideo">
+
+      <video src="https://www.w3schools.com/tags/movie.mp4" id="video" controls loop ></video>
+    </div>
+    <div class="containerControls">
+      <button type="button" id="play-button">
+        Play
+      </button>
+      <button type="button" id="stop-button">
+        Stop
+      </button>
+      <div class="wrapperToGo">
+        
+        <input type="number" id="timestamp" />
+        <button type="button" id="go-to-button">
+          Go to
+        </button>
+      <div>
+    </div>
+
+
+    </div>
+      
+
+
+
+    <!-- <div>
+      <input type="text" id="input-1" />
+
+      <button type="button" id="btn-1">
+        enviar mensaje
+      </button>
+    </div> -->
+  </body>
+
+  <!-- importas la libreria del cliente de socket io -->
+  <script src="/javascripts/jquery.min.js"></script>
+  <script src="/javascripts/socket.io.min.js"></script>
+  <script src="/javascripts/app.js"></script>
+</html>

@@ -1,0 +1,51 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.container{
+  margin-top:20px
+}
+.containerVideo{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.containerVideo video {
+  width:80%;
+}
+
+.containerControls{
+  display:flex;
+  justify-content:center;
+
+  margin-top:30px;
+
+  width:80%;
+}
+.wrapperToGo{
+  display:inline-flex;
+
+
+  margin-left:50px !important;
+}
+
+#timestamp {
+  margin-left:5px;
+
+  width:100px;
+}
+button {
+  background-color: #000;
+  border-radius:5px !important;
+  margin-left:5px;
+  padding:10px;
+
+  text-transform:uppercase;
+  color:#fff;
+
+}
